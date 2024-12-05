@@ -61,7 +61,7 @@ a{
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #8E26C0;;
-    /* background-color: #00AC25; */
+
     font-size: 14px;
     margin-left: 150px;
     color: #8E26C0;
@@ -70,14 +70,80 @@ a{
     display: inline-block;    
 }
 #mainContainer{
-    margin: 0 auto;
-    display: inline-block;          
+    width: 100%;
+    display: inline-block; 
+    text-align: center;  
+    margin-top: 214px;
+    margin-left: 45px;
 }
 #textDiv{
     width: 644px;
-    vertical-align: middle;  
+    display: inline-block;
+    /* padding-left: 20px; */
+    vertical-align: top;
+    text-align: left;
+    margin-left: 45px;
+}
+#textDiv h2{
+    margin-top: 0;
 }
 #mainPicture{
     width: 610px;
-    vertical-align: middle;  
+    display: inline-block;
+}
+#orderd{
+    display: inline-block;
+    text-align: left;
+}
+
+#offerlist{
+    text-align: left;
+    /* display: inline-block; */
+    margin-top: 16px;
+    margin-left: 15px;
+}
+#DDIv{
+    margin: auto;
+}
+#firstTitle{
+    color: #000;
+text-align: center;
+font-size: 40px;
+}
+#mainParagraph{
+    color: #535862;
+font-size: 20px;
+}
+.liItem{
+    color: #000;
+font-size: 24px;
+}
+#Contact-container{
+    margin: auto;
+    max-width: 1221px;
+}
+#mainContactUs{
+    margin: auto;
+    width: 905px;
+}
+#contactHeader{
+    color: #000;
+text-align: center;
+font-size: 56px;
+}
+#contactParagraph{
+    color: #535862;
+text-align: center;
+font-size: 20px;
+}
+#messageAndInfo{
+    border-radius: 16px;
+background: #F7F4FF;
+margin: auto;
+width: 1157px;
+}
+#infoContainer{
+    padding: 20px;  
+    border-radius: 16px;
+    background: #FFF;  
 }
