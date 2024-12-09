@@ -309,7 +309,7 @@ font-size: 14px;
 display: block;
 margin-bottom: 8px;
 }
-#fullNameInput::placeholder{
+#nameInput::placeholder{
     color: #6D5F8B;
     font-size: 14px;   
 }
@@ -317,10 +317,10 @@ margin-bottom: 8px;
     color: #6D5F8B;
 font-size: 14px;
 }
-#phonrInput::placeholder{
+/* #phonrInput::placeholder{
     color: #6D5F8B;
     font-size: 14px;
-}
+} */
 textarea::placeholder{
     color: #6D5F8B;
     font-size: 14px;
@@ -373,7 +373,7 @@ border: none;
     padding: 64px 80px 48px 80px;
     vertical-align: top;
     margin-top: 400px;
-    margin-bottom: 200px;
+    margin-bottom: 64px;
     text-align: center;
 }
 #secondCol, #thirdCol, #firstCol,
@@ -434,8 +434,11 @@ border: none;
 }
 #lastFooterFrame{
     height: 100px;
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
+    border-top: 1px solid #7F56D9;
+    padding-top: 32px
+    ;
 }
 /* #footerInnerFrame{  
     /* padding-top: 32px;
