@@ -38,20 +38,20 @@ a {
     text-decoration: none;
 }
 
-.listitem {
+#list li {
     display: inline-block;
 }
 
-.listitemm {
+#contact {
     display: inline-block;
 }
 
-.listitemm a {
+#contact a {
     color: #8E26C0;
     margin-left: 20px;
 }
 
-.listitem a {
+#list a {
     text-align: none;
     color: gray;
     margin-left: 20px;
@@ -114,9 +114,10 @@ a {
     margin-left: 15px;
 }
 
-#DDIv {
+#mainFrame {
     margin: 0 auto;
     width: 100%;
+    margin-bottom: 83px
 }
 
 #firstTitle {
@@ -153,6 +154,7 @@ a {
     color: #000;
     text-align: center;
     font-size: 56px;
+    margin-bottom: 18px;
 }
 
 #contactParagraph {
@@ -174,7 +176,7 @@ a {
     background: #FFF;
 }
 
-#lastMainPurpleFraim {
+#MainPurpleFraim {
     width: 100%;
     max-width: 1221px;
     padding: 32px;
@@ -183,7 +185,7 @@ a {
     display: inline-block;
 }
 
-#whiteBoardMainFrame {
+#whiteBoardFrame {
     display: inline-block;
     padding: 20px;
     width: 364px;
@@ -362,22 +364,21 @@ border: none;
     text-align: right;
     margin-top: 24px;
 }
-#footerMainFrame{
+#footerFrame{
     width: 100%;
     background-color: #53389E;
 }
-#colMainFrame{
+#columFrame{
     font-size: 12px;
     color: #FFF;
     width: 100%;
     padding: 64px 80px 48px 80px;
     vertical-align: top;
-    margin-top: 163px;
     margin-bottom: 64px;
     text-align: center;
 }
-#secondCol, #thirdCol, #firstCol,
-#fifthCol, #fourthCol, #sixthCol{
+#secondColum, #thirdColum, #firstColum,
+#fifthColum, #fourthColum, #sixthColum{
     vertical-align: top;
     display: inline-block;
     width: 150px;
@@ -394,7 +395,7 @@ border: none;
     display: inline-block;
     padding: 13px;
 }
-#newSolutionsFrame{
+#SolutionsnewFrame{
     border-radius: var(--radius-sm, 6px);
     border: 1px solid rgba(255, 255, 255, 0.30);
     display: inline-block;
@@ -432,7 +433,7 @@ border: none;
 #SaaSCenter, #marketplaces, #ecommerce {
     padding: 13px;
 }
-#lastFooterFrame{
+#FooterFrame{
     height: 100px;
     width: 900px;
     margin: 0 auto;
@@ -445,12 +446,12 @@ border: none;
     display: inline-block;
     width: 100%;
     border-top: 1px solid #7F56D9; */
-/* } */ */
+/* } */ 
 footer{
     padding-top: 32px;
     display: inline-block;
     width: 100%;
-    border-top: 1px solid #7F56D9;
+    margin-top: 163px;
 }
 #footerImgFrame{
     padding-top: 8px;
@@ -463,7 +464,7 @@ footer{
     width: 142px;
     height: 32px;
 }
-#copyrightText{
+#copyright{
     vertical-align: middle;
     display: inline-block;
     font-size: 16px;
